@@ -110,3 +110,24 @@
 height: 50vh;
 object-fit: cover;
 }
+
+.cropped {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.img-container {
+  width: 2600px;
+}
+
+.carousel {
+  overflow: auto;
+  padding: 0;
+}
+
+.carousel-img {
+  margin-right: 12px;
+  border-radius: 4px;
+}
