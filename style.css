@@ -105,3 +105,8 @@
 .card-deck {
   flex-wrap: wrap;
 }
+
+.wide {
+height: 50vh;
+object-fit: cover;
+}
