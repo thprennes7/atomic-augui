@@ -7,13 +7,20 @@
 .footer {
   display: flex;
   align-items: baseline;
-  align-content: center;
 }
 
 .footer-nav {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
   align-items: baseline;
   align-content: center;
+  margin: 0;
+}
+
+.footer-nav-link {
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-item {
@@ -25,4 +32,24 @@
 
 .footer-link {
   color: white;
+  transition: all 0.1s ease;
+}
+
+.footer-link:hover {
+  color: var(--info);
+}
+
+.social-nav {
+  display: flex;
+}
+
+.social-item {
+  color: white;
+  margin: 0 5px;
+  transition: all 0.2s ease;
+}
+
+.social-item:hover {
+  color: var(--info);
+  transform: scale(1.5);
 }
